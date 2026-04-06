@@ -1,11 +1,11 @@
 def add(a, b):
     #BUG: Using subtraction instead of addition
-    return a - b
+    return a * b
 
 
 def multiply(x, y):
     # BUG: Using addition instead of multiplication
-    return x + y
+    return x * y
 
 
 def divide(a, b)
@@ -27,4 +27,4 @@ def modulo(a, b):
 
 def power(base, exponent):
     # BUG: Using multiplication instead of power
-    return base * exponent
+    return base ** exponent
